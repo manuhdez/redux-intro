@@ -10,7 +10,7 @@ const reducer = (state = initialState, action) => {
       }
     case 'DECREMENT':
       return {
-        counter: state.counter + 1
+        counter: state.counter - 1
       }
     case 'ADD':
       return {
